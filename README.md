@@ -1,2 +1,0 @@
-# altschool-html-assignment
-ALTSCHOOL
