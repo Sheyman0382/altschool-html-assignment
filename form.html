@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APPLICATION FORM</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="form.html">Application Form</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>AltSchool Application Form</h1>
+      <h2>Fill in your details</h2>
+
+      <section>
+        <form>
+          <fieldset>
+            <legend>Personal Information</legend>
+            <div>
+              <label for="firstName">FirstName:</label>
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                required
+                placeholder="Enter your first name"
+              />&nbsp;&nbsp;
+              <label for="lastName">LastName:</label>
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                required
+                placeholder="Enter your last name"
+              />
+            </div>
+
+            <p>
+              <label for="gender">Gender:</label>
+              <select id="gender" name="gender" required>
+                <option value="">Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option></select
+              >&nbsp;&nbsp;
+
+              <label for="dateOfBirth">Date of Birth:</label>
+              <input type="date" id="dateOfBirth" name="dateOfBirth" />
+            </p>
+
+            <p>
+              <label for="email">Email Address:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Enter email address"
+              />&nbsp;&nbsp;
+
+              <label for="education">Educational Status</label>
+              <select id="education" name="education">
+                <option value="">Select your educational status</option>
+                <option value="Bsc">B.sc</option>
+                <option value="HND">HND</option>
+                <option value="ND">ND</option>
+                <option value="SSCE">SSCE</option>
+              </select>
+            </p>
+
+            <p>
+              <label for="country">Country:</label>
+              <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Kenya">Kenya</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Cameroun">Cameroun</option></select
+              >&nbsp;&nbsp;
+
+              <label for="state">State/City of Residence</label>
+              <input
+                type="text"
+                id="state"
+                name="state"
+                placeholder="Enter your state/city of residence"
+                required
+              />
+            </p>
+            <p>
+              <label for="employment">Employment Status</label>
+              <select id="employment" name="employment" required>
+                <option value="">select employment status</option>
+                <option value="unemployed">Unemployed</option>
+                <option value="employed">Employed</option>
+                <option value="selfEmployed">Self Employed</option></select
+              >&nbsp;&nbsp;
+
+              <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="080-1234-5678"
+                required
+                pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
+              />
+            </p>
+
+            <p>
+              <label for="school">Choose School</label>
+              <select id="school" name="school" required>
+                <option value="">Select school</option>
+                <option value="engineering">School of Engineering</option>
+                <option value="data">School of Data Science</option>
+                <option value="design">School of Design</option>
+              </select>
+
+              <label for="course">Course of Study</label>
+              <select id="course" name="course" required>
+                <option value="">Select course</option>
+                <option value="webDev">Web Development</option>
+                <option value="dataScience">Data Science</option>
+                <option value="uiUx">UI/UX Design</option>
+              </select>
+            </p>
+            <p>
+              <label for="aboutUs">How did you hear about us?</label>
+              <select id="aboutUs" name="aboutUs" required>
+                <option value="">Select an option</option>
+                <option value="socialMedia">Social Media</option>
+                <option value="friend">Friend</option>
+                <option value="advertisement">Advertisement</option>
+                <option value="other">Other</option>
+              </select>
+              &nbsp;&nbsp;
+
+              <label for="discount">Scholarship/Discount code(optional)</label>
+              <input
+                type="text"
+                id="discount"
+                name="discount"
+                placeholder="Enter code here"
+              />
+            </p>
+
+            <p>
+              By clicking the continue, you agree to our
+              <a href="">Terms and Conditions</a> and
+              <a href="">Privacy Policy</a>.
+            </p>
+            <input type="submit" value="Continue" />
+            <p>Already have an account? <a href="">Login</a></p>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <address>
+          Plot 47, Bright Decker Layout, Beckly Estate, Abule-Egba, Lagos.
+        </address>
+        <p>&copy; 2026 Adegbite Seyifunmi</p>
+      </div>
+    </footer>
+  </body>
+</html>
